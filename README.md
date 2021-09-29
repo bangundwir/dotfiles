@@ -98,21 +98,30 @@ Ctrl+a U
 Prefix U
 ```
 **Cara Melakukan Unistal Plugin tmux**
+```
 Ctrl+a alt+u
 Prefix alt+u
+```
 
 **Pengunaan Plugin tmux-pain-control**
+
 *Split Spliting secara Veritikl*
+```
 Ctrl+a |
 Prefix |
+```
 *Split Spliting secara horizontal*
+```
 Ctrl+a -
 Prefix -
+```
 *Cara Melakukan Navigasi*
+```
 Prefix h = kiri
 Prefix j = bawah
 Prefix k = atas 
 Prefix l = kanan
+```
 
 
 

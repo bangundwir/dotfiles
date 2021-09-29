@@ -87,6 +87,38 @@ Catatan penting:
 -   PREFIX %      adalah keyboard shortcut untuk membagi layar secara vertical
 -   PREFIX "        adalah keyboard shortcut untuk membagi layar secara horizontal
 
+**Window**
+
+Membuka window menggunakan
+```
+Ctrl+b c
+Prefix c
+```
+Berpindah antar Window
+
+bergerak ke kanan
+```
+Ctrl+b n
+Prefix n
+```
+bergerak ke kiri
+```
+Ctrl+b p
+Prefix p
+```
+Cara Rename Window
+```
+Ctrl+b ,
+Prefix ,
+```
+Cara menutup windows
+```
+ctrl+b x atau d
+ctrl+b &
+Prefix x atau d
+Prefix &
+```
+
 **Cara Melakukan Instalalsi**
 ```
 Ctrl+a I

@@ -33,6 +33,14 @@ Cara agar configurasi kita bisa kita gunakan lagi
 rcup
 ```
 
+## Cara install plugin vim
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+```
+
 ## Cara mengunakan Tmux
 
 ### Cara install plugin Tmux 

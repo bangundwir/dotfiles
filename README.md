@@ -163,5 +163,18 @@ Prefix k = atas
 Prefix l = kanan
 ```
 
+# Setting git automatio username and password
+
+```
+git remote set-url origin [git dengan ssh]
+```
+
+```
+[user]
+  name = 
+  email =
+[credential]
+  helper = cache --timeout=1800
+```
 
 

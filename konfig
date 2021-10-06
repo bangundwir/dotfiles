@@ -4,6 +4,8 @@ echo "istall cofiguration dotfiles"
 
 sudo apt update
 
+sudo apt install make -y
+
 sudo apt install rcm -y
 
 sudo apt install tmux -y

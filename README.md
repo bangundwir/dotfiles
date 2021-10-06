@@ -169,6 +169,7 @@ Prefix l = kanan
 git remote set-url origin [git dengan ssh]
 ```
 
+- .gitconfig
 ```
 [user]
   name = 

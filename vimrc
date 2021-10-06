@@ -40,3 +40,14 @@ nmap ,rd : set nornu<CR>
 " Setting wrap
 noremap <leader>z :set linebreak<CR>
 noremap <leader>x :set nolinebreak<CR>
+" Search
+map <CR> :nohlsearch<CR>
+
+" " Map force quit
+" nmap <C-C><C-C> :q!
+
+" " Force Write
+" nmap ww :w!
+
+" " Force write and quit
+" nmap <C-W><C-W> :wq!

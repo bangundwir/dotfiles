@@ -51,3 +51,21 @@ map <CR> :nohlsearch<CR>
 
 " " Force write and quit
 " nmap <C-W><C-W> :wq!
+
+"Search
+map <CR> :nohlsearch<CR>
+
+" Window Management
+" Setting Split
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+
+augroup rungroup
+    autocmd!
+    autocmd BufRead,BufNewFile *.go nnoremap ,n :exec '!go run' shellescape(@%, 1)<cr>
+    autocmd BufRead,BufNewFile *.py nnoremap ,n :exec '!python3' shellescape(@%, 1)<cr>
+    autocmd BufRead,BufNewFile *.js nnoremap ,n :exec '!node' shellescape(@%, 1)<cr>
+augroup END
+

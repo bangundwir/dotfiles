@@ -42,6 +42,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 
 ## Cara mengunakan Tmux
+tmux source-file ~/.tmux.conf
 
 ### Cara install plugin Tmux 
 

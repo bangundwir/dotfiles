@@ -162,6 +162,9 @@ Prefix h = kiri
 Prefix j = bawah
 Prefix k = atas 
 Prefix l = kanan
+
+Prefix n = kesamping
+Prefix p = kekiri
 ```
 
 # Setting git automatio username and password

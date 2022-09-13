@@ -1,0 +1,6 @@
+#!/bin/bash
+# Using Ubuntu
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/Labs
+ssh -T git@github.com
